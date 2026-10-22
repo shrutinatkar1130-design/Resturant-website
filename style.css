@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1{
+    width: 100%;
+    height: 100vh;
+    padding: 20px; 
+ 
+} 
+
+.nav{
+  
+   top: 20px;
+   width: 100%;
+    padding: 0.5px;
+     position: sticky;
+    background-color: deeppink;
+}
+.h-nav{
+    list-style: none;
+    display: flex;
+}
+.h-items{
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+ 
+}
+a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} 
+
+.h-items:hover{
+   
+    background-color: pink;
+}
+.v-nav{
+    position: absolute;
+    list-style: none;
+    width: 120px;
+    right: 0px;
+    font-size: 10px ;
+    top: 72px;
+    background-color: pink;
+    display:none ;
+    z-index: 1000;
+    
+}
+
+ .hide{
+    position: relative; 
+ } 
+
+ .navbar{ 
+   position: fixed;
+   top: 5px;
+   width: 100%;
+    background-color: rgba(229, 25, 117, 0.567);
+} 
+.v-items{
+    padding: 10px;
+    font-size: 5px;
+
+}
+.v-items:hover{
+    border-bottom: 2px solid deeppink;
+}
+
+.hide:hover .v-nav { 
+    display: inline;
+} 
+
+
+
+.shopping-cart{
+    color: rgb(198, 160, 183);
+    font-size: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.welcome-cont{
+    width: 100%;
+    height: 100vh;
+    background :linear-gradient(145deg, lightcoral, white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+          
+}
+ .hadding{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 40px;
+     color: rgb(213, 20, 117);
+
+ }
+ .heading {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(90, 12, 61);
+ }
+
+ 
+ 
+.h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    color: #000;
+}
+
+.span {
+    color: #AD6809;
+}
+
+.matter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+ 
+/* MENU CARD */
+
+
+.Foodie{
+   text-align: start;
+    color: #d9b94b;
+    font-size: 40px;
+}
+.but{
+   background-color: #d9b84b76 ;
+   padding: 10px;
+}
+.heading{
+      text-align: center;
+      color:#d79106;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-style: bold;
+}
+.food-container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.food-card {
+    background-color: white;
+    text-align: center;
+    border: 1px solid #eadfd5;
+    padding-bottom: 12px;
+    box-shadow: 0 2px 5px #ddd;
+    transition: 0.3s;
+}
+.food-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px #ccc;
+}
+
+.food-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.food-card h3 {
+    font-size: 15px;
+    color: #40342e;
+    margin-top: 10px;
+}
+
+.stars {
+    color: #d9b94b;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 11px;
+    color: #777;
+}
+
+
+/* About us */
+body {
+    background-color: rgb(243, 238, 238);
+    
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.food-image {
+    width: 46%;
+    border-radius: 20px;
+}
+
+.food-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+
+.head-h2{
+    margin-top: 40px;
+    color: #AD6809;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.head-h3{
+    color: #d9b94b;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+
+}
+.p{
+    margin-top: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    
+
+}
+.content {
+    width: 54%;
+    padding: 35px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+/* booking */
+.number{
+    font-size: 20px;
+    color: #AD6809;
+    border-radius: 2%;
+}
+
+.booking-container {
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+}
+.cafe-image {
+    width: 100%;
+}
+
+.cafe-image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.booking-form {
+    width: 100%;
+    height: 100vh;
+    background-color: #58221f4f;
+    padding: 30px;
+}
+
+.booking-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form button {
+    margin: 8px 3px;
+    padding: 8px;
+}
+
+/* .booking-form button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+} */
+
+/* delivery */
+ .Delivery-img{
+    display: flex;
+    background: linear-gradient(180deg,rgb(172, 213, 199,rgb(202, 166, 166)));
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ .Fast{
+    color: rgb(128, 193, 30);
+    font-size: 40px;
+    font-style: bold;
+ }
+ .fill{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #777;
+ }
+ 
